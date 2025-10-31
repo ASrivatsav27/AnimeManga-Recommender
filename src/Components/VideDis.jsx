@@ -47,13 +47,13 @@ const VideDis = () => {
           >
             <video
               src={item.video}
-              // ✅ FIX: Completed the Tailwind class from 'mt-' to 'mt-0' or removed it
+     
               className="video-item w-full aspect-video rounded-4xl bg-amber-50"
               loop
               muted
               playsInline
             />
-            {/* ✅ FIX: Adjusted logo size for better visibility */}
+        
             <img src={item.logo} alt={item.alt} className="mt-4 w-48 h-auto" />
           </div>
         ))}
