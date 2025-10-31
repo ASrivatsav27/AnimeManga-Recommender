@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@theme {
+    --color-red-1:#A11212
+
+}
+body {
+    @apply bg-red-1 ;
+}
+
+h1 {
+    @apply text-white text-7xl md:text-8xl font-black tracking-tight leading-none ;
+}
